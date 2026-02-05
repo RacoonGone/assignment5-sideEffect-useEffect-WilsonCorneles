@@ -5,6 +5,7 @@ import Counterupdatetitle from './components/Counterupdatetitle.jsx'
 import Timerwithcleanup from './components/Timerwithcleanup.jsx'
 import Conditionaluseeffect from './components/Conditionaluseeffect.jsx'
 import Fetchingdata from './components/Fetchingdata.jsx'
+import Fetchingdataonstatechange from './components/Fetchingdataonstatechange.jsx'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Timerwithcleanup />
       <Conditionaluseeffect />
       <Fetchingdata />
+      <Fetchingdataonstatechange />
     </>
   )
 }
